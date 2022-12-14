@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="124dp"
+        android:text="Выбери одну категорию"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/coffieiv"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="472dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/kofe" />
+
+    <TextView
+        android:id="@+id/teatxt"
+        android:layout_width="136dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="52dp"
+        android:text="Чай"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teaiv" />
+
+    <ImageView
+        android:id="@+id/teaiv"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="280dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tea" />
+
+    <TextView
+        android:id="@+id/coffietxt"
+        android:layout_width="136dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="52dp"
+        android:text="Кофе"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coffieiv" />
+
+    <TextView
+        android:id="@+id/combotxt"
+        android:layout_width="136dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="235dp"
+        android:text="Комбо"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comboiv" />
+
+    <TextView
+        android:id="@+id/sweetstxt"
+        android:layout_width="136dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="235dp"
+        android:text="Сладости"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sweetsiv" />
+
+    <ImageView
+        android:id="@+id/sweetsiv"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="472dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/sweets" />
+
+    <ImageView
+        android:id="@+id/comboiv"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="280dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/combo" />
+
+    <ImageView
+        android:id="@+id/bar"
+        android:layout_width="465dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bar" />
+
+    <ImageView
+        android:id="@+id/fblogo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/bar"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/twlogo"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/twitter" />
+
+    <ImageView
+        android:id="@+id/walogo"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/whatsapp" />
+
+    <ImageView
+        android:id="@+id/instlogo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="266dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/instagram" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:textSize="17dp"
+        android:text="Кофейня &quot;Бодрость&quot;"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="102dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="100dp"
+        android:text="Завтрак"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnextscreen"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="112dp"
+        android:background="#66ABDA"
+        android:backgroundTint="#A7C9E9"
+        android:fontFamily="sans-serif-medium"
+        android:text="Показать результаты"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
